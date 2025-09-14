@@ -15,6 +15,8 @@ It allows users to hide (encode) secret text inside an image and later extract (
 - **Tkinter** – GUI framework
 - **Stegano** – for steganography (lsb module)
 - **Pillow** – image handling
+- <img width="1083" height="418" alt="output for cli" src="https://github.com/user-attachments/assets/e8109a3b-9865-4df9-ab5e-0fe2353db09d" />
+
 
 ## 🚀 How It Works
 1. **Encoding**: User selects an image, enters secret text, and saves the stego-image with hidden data.

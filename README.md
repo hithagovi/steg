@@ -25,3 +25,25 @@ It allows users to hide (encode) secret text inside an image and later extract (
 2. Install required libraries:
    ```bash
    pip install stegano pillow
+
+   Run the script in VS Code or any Python IDE.
+
+## 🖥️ Usage
+Encode: Select an image, enter secret text, and save the modified image.
+Decode: Select the modified image to reveal the hidden message.
+
+## 📂 Example
+Original Image → Encoded Image (with hidden message).
+Extract hidden text using the decode option.
+
+## ⚠️ Limitations
+Only works with PNG and BMP images (JPEG is not supported).
+Currently supports hiding text only, not files.
+
+## 🔮 Future Improvements
+Add support for hiding files (PDF, DOCX, etc.).
+Add password protection with encryption.
+Improve GUI with drag-and-drop support.
+
+## 👨‍💻 Author
+Developed as a Python mini-project demonstration.
